@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: 'diffle_klon_team_building/dist/'
+    publicPath: 'jober-disa/dist/'
 };
