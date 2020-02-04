@@ -1,10 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home'
-import Test from "./views/Test";
-import Result from "./views/Result";
-import AnotherResult from "./views/AnotherResult";
-import TestBefore from "./views/TestBefore";
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from './views/Home';
+import Test from './views/Test';
+import Result from './views/Result';
+import AnotherResult from './views/AnotherResult';
+import TestBefore from './views/TestBefore';
 
 Vue.use(Router);
 
@@ -15,27 +15,27 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
     },
     {
       path: '/test_before',
-      component: TestBefore
+      component: TestBefore,
     },
     {
       path: '/test',
-      component: Test
+      component: Test,
     },
     {
       path: '/result',
-      component: Result
+      component: Result,
     },
     {
       path: '/another',
-      component: AnotherResult
+      component: AnotherResult,
     },
     {
       path: '*',
-      component: Home
-    }
-  ]
-})
+      component: Home,
+    },
+  ],
+});
