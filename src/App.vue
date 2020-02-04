@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <div class="header">
-      <a
-        href="/dist/"
+      <router-link
+        to="/"
         class="home"
-      >홈으로</a>
+      >
+        홈으로
+      </router-link>
       <div class="logo-null"></div>
       <img
         class="logo"

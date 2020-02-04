@@ -10,10 +10,12 @@
       <p class="text">이 검사는 성향을 알아가는 과정일 뿐입니다. 너무 진지하게 생각하지 마세요.</p>
       <div class="start-button-wrapper">
         <router-link to="/test_before"><button class="start-button">검사 시작</button></router-link>
-        <a
-          href="/another"
+        <router-link
+          to="/another"
           class="another"
-        >성격 유형 보기</a>
+        >
+          성격 유형 보기
+        </router-link>
       </div>
     </div>
 
