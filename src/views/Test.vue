@@ -118,6 +118,7 @@
         padding-top: 5px;
         padding-bottom: 5px;
         background-color: #2ccbc3;
+        cursor: pointer;
     }
 </style>
 
